@@ -1,0 +1,17 @@
+# Get three numbers as input from the user
+try:
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    num3 = float(input("Enter the third number: "))
+
+    # Find the largest number
+    largest_number = max(num1, num2, num3)
+
+    print(f"The largest number among {num1}, {num2}, and {num3} is: {largest_number}")
+except ValueError:
+    print("Error: Invalid input. Please enter valid numerical values.")
+
+Enter the first number: 23
+Enter the second number: 67
+Enter the third number: 88
+The largest number among 23.0, 67.0, and 88.0 is: 88.0
